@@ -1,0 +1,17 @@
+{
+  "name": "aegis-upi-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AegisUPI: Zero-Latency Sovereign Fraud & Deepfake Firewall",
+  "scripts": {
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8"
+  },
+  "packageManager": "pnpm@12.8.1"
+}
+
